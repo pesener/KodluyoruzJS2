@@ -1,0 +1,96 @@
+.main{
+background-color: orange;
+align-items: center;
+top: 0;
+right: 0;
+position: fixed;
+text-align: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+left:0;
+height: 250px;
+
+}
+
+h1{
+    color:orange;
+    background-color: white;
+    width: 240px;
+    font-family: monospace;
+    font-size: xxx-large;
+    margin-bottom: 0%;
+    
+}
+h2{
+    color:white;
+    font-family: monospace;
+    font-size: xx-large;
+
+}
+
+input{
+    width: 800px;
+    height: 30px;
+    
+}
+.add{
+    color:black;
+    height: 36px;
+    width: 300px;
+    display: inline-block;
+    font-size: medium;
+}
+.main2{
+    display: flex;
+}
+
+.main3{
+    margin-top: 300px;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+align-items: center;
+
+
+}
+
+
+.list-group{
+color: black;
+cursor: pointer;
+list-style: none;
+margin-bottom: 10px;
+color:black;
+background-color:aliceblue;
+height: 50px;
+flex-direction: column;
+left:0;
+right: 0;
+text-align: center;
+justify-content: center;
+position:relative;
+vertical-align: middle;
+
+
+
+}
+
+ul li.checked{
+    background-color: #888;
+    color:#fff;
+    text-decoration: line-through;
+}
+
+.close{
+    
+    position:absolute;
+    right:0;
+    top:0;
+    padding: 12px 16px 12px 16px;
+    cursor: pointer;
+    color: black;
+  
+    
+}
+
